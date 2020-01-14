@@ -15,14 +15,14 @@
 		0CCBEFC223C4260A00B6FB5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCBEFC023C4260A00B6FB5C /* LaunchScreen.storyboard */; };
 		0CCBEFCD23C4260A00B6FB5C /* NDXTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBEFCC23C4260A00B6FB5C /* NDXTunesTests.swift */; };
 		0CCBEFD823C429D500B6FB5C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBEFD723C429D500B6FB5C /* Utility.swift */; };
-		0CCBF02B23C432CD00B6FB5C /* NDXNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCBF02A23C432CD00B6FB5C /* NDXNetwork.framework */; };
-		0CCBF02C23C432CD00B6FB5C /* NDXNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCBF02A23C432CD00B6FB5C /* NDXNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0CCBF02F23C4386200B6FB5C /* AlbumsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBF02E23C4386200B6FB5C /* AlbumsListViewModel.swift */; };
 		0CCBF03123C438D400B6FB5C /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBF03023C438D400B6FB5C /* AlbumViewModel.swift */; };
-		0CCBF04C23C43A5000B6FB5C /* NDXDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCBF04B23C43A5000B6FB5C /* NDXDataModel.framework */; };
-		0CCBF04D23C43A5000B6FB5C /* NDXDataModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCBF04B23C43A5000B6FB5C /* NDXDataModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0CCBF05623C446F400B6FB5C /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBF05523C446F400B6FB5C /* AlbumViewController.swift */; };
 		0CCBF05923C44D1500B6FB5C /* AlbumCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCBF05823C44D1500B6FB5C /* AlbumCustomCell.swift */; };
+		E5BEDCA923CE2DD800E89100 /* NDXDataModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BEDCA823CE2DD800E89100 /* NDXDataModel.framework */; };
+		E5BEDCAA23CE2DD800E89100 /* NDXDataModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5BEDCA823CE2DD800E89100 /* NDXDataModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5BEDCAC23CE2E3400E89100 /* NDXNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5BEDCAB23CE2E3400E89100 /* NDXNetwork.framework */; };
+		E5BEDCAD23CE2E3400E89100 /* NDXNetwork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5BEDCAB23CE2E3400E89100 /* NDXNetwork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0CCBF02C23C432CD00B6FB5C /* NDXNetwork.framework in Embed Frameworks */,
-				0CCBF04D23C43A5000B6FB5C /* NDXDataModel.framework in Embed Frameworks */,
+				E5BEDCAD23CE2E3400E89100 /* NDXNetwork.framework in Embed Frameworks */,
+				E5BEDCAA23CE2DD800E89100 /* NDXDataModel.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,12 +63,12 @@
 		0CCBEFCC23C4260A00B6FB5C /* NDXTunesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NDXTunesTests.swift; sourceTree = "<group>"; };
 		0CCBEFCE23C4260A00B6FB5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCBEFD723C429D500B6FB5C /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
-		0CCBF02A23C432CD00B6FB5C /* NDXNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NDXNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCBF02E23C4386200B6FB5C /* AlbumsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsListViewModel.swift; sourceTree = "<group>"; };
 		0CCBF03023C438D400B6FB5C /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
-		0CCBF04B23C43A5000B6FB5C /* NDXDataModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NDXDataModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCBF05523C446F400B6FB5C /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		0CCBF05823C44D1500B6FB5C /* AlbumCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCustomCell.swift; sourceTree = "<group>"; };
+		E5BEDCA823CE2DD800E89100 /* NDXDataModel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NDXDataModel.framework; path = NDXTunes/NDXDataModel.framework; sourceTree = "<group>"; };
+		E5BEDCAB23CE2E3400E89100 /* NDXNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NDXNetwork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CCBF02B23C432CD00B6FB5C /* NDXNetwork.framework in Frameworks */,
-				0CCBF04C23C43A5000B6FB5C /* NDXDataModel.framework in Frameworks */,
+				E5BEDCAC23CE2E3400E89100 /* NDXNetwork.framework in Frameworks */,
+				E5BEDCA923CE2DD800E89100 /* NDXDataModel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,11 +111,10 @@
 			isa = PBXGroup;
 			children = (
 				0C75F28323C4C3E900B0D850 /* Resources */,
-				0CCBF04B23C43A5000B6FB5C /* NDXDataModel.framework */,
-				0CCBF02A23C432CD00B6FB5C /* NDXNetwork.framework */,
 				0CCBEFB623C4260900B6FB5C /* NDXTunes */,
 				0CCBEFCB23C4260A00B6FB5C /* NDXTunesTests */,
 				0CCBEFB523C4260900B6FB5C /* Products */,
+				E5BEDC6923CE28E100E89100 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +168,15 @@
 				0CCBF05523C446F400B6FB5C /* AlbumViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E5BEDC6923CE28E100E89100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5BEDCAB23CE2E3400E89100 /* NDXNetwork.framework */,
+				E5BEDCA823CE2DD800E89100 /* NDXDataModel.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,6 +444,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6AEMQGEVK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)Network",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NDXTunes",
+				);
 				INFOPLIST_FILE = NDXTunes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,6 +468,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P6AEMQGEVK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)Network",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/NDXTunes",
+				);
 				INFOPLIST_FILE = NDXTunes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

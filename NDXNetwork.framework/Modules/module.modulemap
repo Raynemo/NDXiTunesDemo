@@ -1,0 +1,11 @@
+framework module NDXNetwork {
+  umbrella header "NDXNetwork.h"
+
+  export *
+  module * { export * }
+}
+
+module NDXNetwork.Swift {
+    header "NDXNetwork-Swift.h"
+    requires objc
+}
